@@ -1,0 +1,1 @@
+/var/www/sahil/vendor/magento/module-backend/view/adminhtml/web/js/translate.js
