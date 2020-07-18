@@ -4,9 +4,9 @@ files:
   - source: /
     destination: /var/www/html
 hooks:
-  AfterInstall:
-    - location: aftetinstall.sh
-      timeout: 10
   ApplicationStop:
     - location: applicationstop.sh
+      timeout: 10
+  AfterInstall:
+    - location: aftetinstall.sh
       timeout: 10
