@@ -7,3 +7,6 @@ hooks:
   AfterInstall:
     - location: aftetinstall.sh
       timeout: 10
+  ApplicationStop:
+    - location: applicationstop.sh
+      timeout: 10
