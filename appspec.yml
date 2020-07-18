@@ -4,7 +4,7 @@ files:
   - source: /
     destination: /var/www/html
 hooks:
-  ApplicationStop:
+  BeforeInstall:
     - location: applicationstop.sh
       timeout: 10
   AfterInstall:
