@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/sahil
+    destination: /var/www/html
 hooks:
   AfterInstall:
     - location: aftetinstall.sh
